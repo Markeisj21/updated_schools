@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_marginTop="5dp"
+        android:padding="8dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+    android:background="@color/colorPrimary">
+
+
+    <TextView
+        android:id="@+id/dbn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="DBN" />
+
+    <TextView
+        android:id="@+id/num_of_takers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Number of Takers" />
+
+    <TextView
+        android:id="@+id/reading_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Reading Score" />
+
+    <TextView
+        android:id="@+id/math_score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Math Score" />
+
+    <TextView
+        android:id="@+id/writting_score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Writing Score" />
+
+    <TextView
+        android:id="@+id/school_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="School Name" />
+</LinearLayout>
